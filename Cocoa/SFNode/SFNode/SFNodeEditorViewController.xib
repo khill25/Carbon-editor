@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SFNodeEditorViewController">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="569" height="419"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <splitView dividerStyle="paneSplitter" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-wX-FrY">
+                    <rect key="frame" x="0.0" y="0.0" width="569" height="419"/>
+                    <subviews>
+                        <customView fixedFrame="YES" id="8h5-gY-ktm">
+                            <rect key="frame" x="0.0" y="0.0" width="188" height="419"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </customView>
+                        <customView fixedFrame="YES" id="pTc-Dq-Elj" customClass="SFNodeEditorView">
+                            <rect key="frame" x="198" y="0.0" width="371" height="419"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <button horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qkg-nz-G2w">
+                                    <rect key="frame" x="327" y="3" width="39" height="38"/>
+                                    <buttonCell key="cell" type="round" title="+" bezelStyle="circular" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="m9P-Tk-Huq">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                            </subviews>
+                        </customView>
+                    </subviews>
+                    <holdingPriorities>
+                        <real value="250"/>
+                        <real value="250"/>
+                    </holdingPriorities>
+                </splitView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kPL-wX-FrY" secondAttribute="bottom" id="Nfv-YD-oRn"/>
+                <constraint firstItem="kPL-wX-FrY" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="Vhr-P9-8eR"/>
+                <constraint firstItem="kPL-wX-FrY" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="i0R-ey-trw"/>
+                <constraint firstAttribute="trailing" secondItem="kPL-wX-FrY" secondAttribute="trailing" id="jFz-5B-Rsz"/>
+            </constraints>
+            <point key="canvasLocation" x="356.5" y="478.5"/>
+        </customView>
+    </objects>
+</document>

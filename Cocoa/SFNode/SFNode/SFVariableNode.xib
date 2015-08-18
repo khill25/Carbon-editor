@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SFVariableNode">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="175" height="35"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iHo-1V-J78">
+                    <rect key="frame" x="20" y="6" width="135" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Pq7-WY-FDm"/>
+                        <constraint firstAttribute="width" constant="135" id="hHA-Ja-gtf"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Variable" drawsBackground="YES" id="HDE-VB-wXa">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jfr-mF-e5d">
+                    <rect key="frame" x="154" y="5" width="20" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Gzp-94-xOA"/>
+                        <constraint firstAttribute="width" constant="20" id="bwH-6H-qlS"/>
+                    </constraints>
+                    <buttonCell key="cell" type="squareTextured" title="+" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="P4r-gj-xwA">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="systemBold"/>
+                    </buttonCell>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="iHo-1V-J78" secondAttribute="centerY" id="1L7-mp-H4H"/>
+                <constraint firstAttribute="centerX" secondItem="iHo-1V-J78" secondAttribute="centerX" id="TXM-8b-2MT"/>
+                <constraint firstAttribute="centerY" secondItem="jfr-mF-e5d" secondAttribute="centerY" id="rUU-a8-2IJ"/>
+                <constraint firstItem="jfr-mF-e5d" firstAttribute="leading" secondItem="iHo-1V-J78" secondAttribute="trailing" constant="-1" id="zYh-BX-kuF"/>
+            </constraints>
+            <point key="canvasLocation" x="311.5" y="404.5"/>
+        </customView>
+    </objects>
+</document>

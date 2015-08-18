@@ -1,0 +1,6 @@
+{"nodes": [
+{"node" : {"transform":{"position":{"x":0,"y":1,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeValue":"Testing the text capabilities of this fully armed and operational input field.","classType":"NodePrefab","children":[],"parentIds":[3]}},
+{"node" : {"transform":{"position":{"x":13.28845,"y":2.599083,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeValue":"Testing the text capabilities of this fully armed and operational input field.","classType":"NodePrefab","children":[],"parentIds":[1]}},
+{"node" : {"transform":{"position":{"x":12.4548,"y":-11.12244,"z":-1.907349E-06},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeValue":"Testing the text capabilities of this fully armed and operational input field.","classType":"NodePrefab","children":[],"parentIds":[2]}},
+{"transform":{"position":{"x":-2.815652,"y":-13.50417,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeValue":"Island node\n","classType":"NodePrefab","children":[],"parentIds":[]}
+]}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SFNodeToolboxViewController">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="247" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xje-6x-3PS">
+                    <rect key="frame" x="0.0" y="0.0" width="247" height="272"/>
+                    <clipView key="contentView" id="5nF-NE-R3j">
+                        <rect key="frame" x="1" y="1" width="248" height="158"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView maxNumberOfRows="4" maxNumberOfColumns="4" id="htr-wc-p3L">
+                                <rect key="frame" x="0.0" y="0.0" width="248" height="158"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <connections>
+                                    <outlet property="itemPrototype" destination="4hA-Xd-F1G" id="ZR7-Cv-hJc"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="7qc-hX-NKB">
+                        <rect key="frame" x="1" y="144" width="233" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="WFQ-vI-Pqv">
+                        <rect key="frame" x="234" y="1" width="15" height="143"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Xje-6x-3PS" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="2xv-po-pN1"/>
+                <constraint firstItem="Xje-6x-3PS" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="MCh-oa-xuY"/>
+                <constraint firstAttribute="bottom" secondItem="Xje-6x-3PS" secondAttribute="bottom" id="Nb5-Md-EO2"/>
+                <constraint firstAttribute="trailing" secondItem="Xje-6x-3PS" secondAttribute="trailing" id="XgB-8f-MI2"/>
+            </constraints>
+            <point key="canvasLocation" x="215.5" y="395"/>
+        </customView>
+        <collectionViewItem id="4hA-Xd-F1G">
+            <connections>
+                <outlet property="view" destination="EIZ-za-Iqd" id="Wbf-sP-iwv"/>
+            </connections>
+        </collectionViewItem>
+        <view id="EIZ-za-Iqd">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GBY-of-OEs">
+                    <rect key="frame" x="-3" y="-3" width="106" height="106"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" image="toolbox" id="IW5-6t-kcX"/>
+                </imageView>
+            </subviews>
+            <point key="canvasLocation" x="459" y="408"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="toolbox" width="64" height="64"/>
+    </resources>
+</document>

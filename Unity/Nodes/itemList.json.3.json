@@ -1,0 +1,6 @@
+{"nodes": [
+{"node":{"transform":{"position":{"x":0,"y":1,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeId":1,"nodeValue":"Root node here","classType":"NodePrefab","childrenIds":[2],"parentIds":[3]}},
+{"node":{"transform":{"position":{"x":18.6716,"y":4.950371,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeId":2,"nodeValue":"Testing the text capabilities of this fully armed and operational input field.","classType":"NodePrefab","childrenIds":[3],"parentIds":[1]}},
+{"node":{"transform":{"position":{"x":14.00861,"y":-9.68879,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeId":3,"nodeValue":"Testing the text capabilities of this fully armed and operational input field.","classType":"NodePrefab","childrenIds":[1],"parentIds":[2]}},
+{"node":{"transform":{"position":{"x":-7.55525,"y":-12.55011,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeId":4,"nodeValue":"Island node","classType":"NodePrefab","childrenIds":[],"parentIds":[]}}
+]}

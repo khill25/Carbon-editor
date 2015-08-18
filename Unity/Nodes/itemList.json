@@ -1,0 +1,6 @@
+{"nodes": [
+{"node":{"transform":{"position":{"x":12.81819,"y":1.6132,"z":0},"localScale":{"x":10,"y":10,"z":0.2},"rotation":{"x":0,"y":0,"z":0,"w":1}},"nodeId":1,"nodeValue":"Hope this works!","classType":"NodePrefab","childrenIds":[],"parentIds":[]}},
+{"node":{"nodeId":5,"nodeValue":"New Text","classType":"EditorSelectorNode","childrenIds":[],"transform":{"position":{"x":3.870228,"y":3.902533,"z":0},"localScale":{"x":0.03,"y":0.03,"z":1},"rotation":{"x":0,"y":0,"z":0,"w":1}}}},
+{"node":{"nodeId":3,"nodeValue":"","classType":"EditorVariableNode","childrenIds":[],"transform":{"position":{"x":-5.505971,"y":2.541977,"z":0},"localScale":{"x":0.03,"y":0.03,"z":1},"rotation":{"x":0,"y":0,"z":0,"w":1}}}},
+{"node":{"nodeId":1,"nodeValue":"","classType":"EditorVariableNode","childrenIds":[],"transform":{"position":{"x":-5.660851,"y":5.236079,"z":0},"localScale":{"x":0.03,"y":0.03,"z":1},"rotation":{"x":0,"y":0,"z":0,"w":1}}}}
+]}
